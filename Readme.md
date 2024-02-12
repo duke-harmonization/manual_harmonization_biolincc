@@ -25,7 +25,7 @@ For each cohort, two SAS analysis datasets were created. These datasets were als
 2. Events (one or more record per patient per event). For this dataset, the program (standard for all cohorts) outputs one censoring record for each event/procedure, even in the case where the event/procedure occurred. Note that if there are multiple events of the same type for a patient (say 4 MIs), all MI events will be kept, as well as the creation of the censoring record. If the patient had no MI events, the MI censoring record would still be created. For ARIC, Framingham Offspring, and MESA the events dataset program is called `pull_aric_events.sas`, `pull_offspring_events.sas`, and `pull_mesa_events.sas`, respectively.
 
 # Links
-- [BioLINCC]()
+- [BioLINCC](https://biolincc.nhlbi.nih.gov/home/)
 - [Framingham (Offspring)](https://biolincc.nhlbi.nih.gov/studies/framoffspring/)
 - [ARIC](https://biolincc.nhlbi.nih.gov/studies/aric/)
 - [MESA](https://biolincc.nhlbi.nih.gov/studies/mesa/)
